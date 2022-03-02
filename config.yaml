@@ -21,3 +21,7 @@ exporters:
     exporter_type: json
     collection: products
     write_mode: pretty_array
+
+  - exporter_name: product_csv
+    exporter_type: csv
+    collection: products    
