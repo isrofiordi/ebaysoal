@@ -17,11 +17,11 @@ exporters:
     collection: listings
     write_mode: pretty_array
 
-  - exporter_name: product
+  - exporter_name: productapir
     exporter_type: json
     collection: products
     write_mode: pretty_array
 
-  - exporter_name: product_csv
+  - exporter_name: product_cisivi
     exporter_type: csv
     collection: products    
