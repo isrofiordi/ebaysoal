@@ -5,4 +5,4 @@ seeder:
 parsers:
   - file: ./parsers/search.rb
     page_type: listing
-    disabled: true
+    disabled: false
