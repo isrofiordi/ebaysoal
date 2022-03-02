@@ -15,16 +15,19 @@ exporters:
   - exporter_name: listing
     exporter_type: json
     collection: listings
+    start_on_job_done: true
     write_mode: pretty_array
 
   - exporter_name: product
     exporter_type: json
     collection: products
+    start_on_job_done: true
     write_mode: pretty_array
 
   - exporter_name: product_csv
     exporter_type: csv
-    collection: products 
+    collection: products
+    start_on_job_done: true
     fields:
       - header: "gid"
         path: "_gid"
