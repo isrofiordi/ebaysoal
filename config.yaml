@@ -15,13 +15,4 @@ exporters:
   - exporter_name: listing
     exporter_type: json
     collection: listings
-    write_mode: pretty_array
-
-  - exporter_name: productapir
-    exporter_type: json
-    collection: products
-    write_mode: pretty_array
-
-  - exporter_name: product_cisivi
-    exporter_type: csv
-    collection: products    
+    write_mode: pretty_array    
