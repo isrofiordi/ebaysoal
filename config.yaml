@@ -40,4 +40,8 @@ exporters:
       - header: "feedback"
         path: "feedback"
       - header: "seller"
-        path: "seller"   
+        path: "seller"
+
+finisher:
+  file: ./finisher/finisher.rb
+  disabled: false
