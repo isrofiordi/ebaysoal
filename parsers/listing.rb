@@ -23,4 +23,14 @@ listings.each do |listing|
 
     # save the product to the job’s outputs
     outputs << product
+
+    # enqueue more pages to the scrape job
+    pages << {
+        url: product['url'],
+        page_type: 'details',
+        vars: {
+            title: product['title'],
+            price: product['price']
+        }
+    }
 end
