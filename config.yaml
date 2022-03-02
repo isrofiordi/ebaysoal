@@ -10,3 +10,14 @@ parsers:
   - file: ./parsers/details.rb
     page_type: details
     disabled: false
+
+exporters:
+  - exporter_name: listing
+    exporter_type: json
+    collection: listings
+    write_mode: pretty_array
+
+  - exporter_name: product
+    exporter_type: json
+    collection: products
+    write_mode: pretty_array
