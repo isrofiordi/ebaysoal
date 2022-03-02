@@ -3,6 +3,6 @@ seeder:
   disabled : false
 
 parsers:
-  - file: ./parsers/search.rb
+  - file: ./parsers/listing.rb
     page_type: listing
     disabled: false
